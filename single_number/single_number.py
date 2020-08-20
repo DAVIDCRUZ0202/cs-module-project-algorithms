@@ -3,9 +3,9 @@ Input: a List of integers where every int except one shows up twice
 Returns: an integer
 '''
 def single_number(arr):
-    # Your code here
-
-    pass
+    for num in arr:
+        if arr.count(num) == 1:
+            return num  
 
 
 if __name__ == '__main__':
@@ -13,3 +13,26 @@ if __name__ == '__main__':
     arr = [1, 1, 4, 4, 5, 5, 3, 3, 9, 0, 0]
 
     print(f"The odd-number-out is {single_number(arr)}")
+
+
+    # UPER
+
+## Understand, Plan, Execute  , Reflect
+
+
+### To Understand
+# Re-phrase the problem.
+# Make sure to fully grasp what is being asked
+# If you understand what success looks like, you understand the problem
+ 
+
+ ### To Plan
+ # Gather info nonstop
+ # get rid of repeat info 
+
+ ### Execute
+ # Execute the plan!
+
+ ### Reflect on the results of the execution
+
+ 
